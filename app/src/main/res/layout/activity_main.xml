@@ -9,8 +9,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.matthewtaila.memoirs.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <Button android:id="@+id/btn_loginActivity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Log in Activty"/>
+
+    <Button android:id="@+id/btn_albumListActivty"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Album list Activty"
+        android:layout_below="@+id/btn_loginActivity"/>
+
+    <Button android:id="@+id/btn_pictureListActivty"
+        android:layout_below="@id/btn_albumListActivty"
+        android:layout_width="match_parent"
+        android:text="Picture list activity"
+        android:layout_height="60dp" />
+
+    <Button android:id="@+id/btn_createAlbumActivity"
+        android:layout_below="@id/btn_pictureListActivty"
+        android:layout_width="match_parent"
+        android:text="Create album activity"
+        android:layout_height="60dp" />
 </RelativeLayout>
