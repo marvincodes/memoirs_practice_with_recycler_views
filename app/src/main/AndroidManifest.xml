@@ -18,7 +18,10 @@
         <activity android:name=".AlbumListActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".PictureListActivity" />
-        <activity android:name=".CreateAlbumActivity"></activity>
+        <activity android:name=".CreateAlbumActivity" />
+        <activity android:name=".PictureActivity" />
+        <activity android:name=".EditAlbumActivity" />
+        <activity android:name=".EditPictureActivity"></activity>
     </application>
 
 </manifest>
