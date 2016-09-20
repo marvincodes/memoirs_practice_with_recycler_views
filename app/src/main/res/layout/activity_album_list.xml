@@ -7,7 +7,13 @@
 
     <android.support.v7.widget.RecyclerView android:id="@+id/rv_albumList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="400dp">
     </android.support.v7.widget.RecyclerView>
+
+    <Button android:id="@+id/btn_createAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:text="Create Album"/>
 
 </RelativeLayout>
